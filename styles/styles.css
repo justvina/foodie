@@ -1,0 +1,10 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.col {
+    flex-direction: column;
+}
+.col >img {
+    width: 250px;
+}
