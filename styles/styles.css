@@ -1,10 +1,31 @@
+body {
+    width: 100%;
+    background-color: rosybrown;
+}
+.body {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
 .row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+.header {
+    text-align: left;
+    width: 60%;
+    display: block;
+    margin: auto;
 }
 .col {
+    width: 19%;
     flex-direction: column;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 0;
+
 }
 .col >img {
-    width: 250px;
+    width: 100%;
 }
