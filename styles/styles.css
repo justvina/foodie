@@ -26,6 +26,6 @@ body {
     margin-bottom: 0;
 
 }
-.col >img {
+.col >a>img {
     width: 100%;
 }
