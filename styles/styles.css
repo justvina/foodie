@@ -1,5 +1,4 @@
 body {
-    width: 100%;
     background-color: rosybrown;
 }
 .body {
@@ -17,6 +16,10 @@ body {
     width: 60%;
     display: block;
     margin: auto;
+    text-transform: capitalize;
+}
+.header > h1 {
+    margin: 0;
 }
 .col {
     width: 19%;
@@ -24,9 +27,9 @@ body {
     text-align: center;
     margin: 5px;
     margin-bottom: 0;
-
+    
 }
- .col > a > img {
+.col > a > img {
     width: 100%;
 }
 
@@ -36,11 +39,21 @@ body {
     padding: 10px 0 0 0;
     margin-top: -43px;
     position: relative;
+    text-transform: capitalize;
 }
+
 
 .title > p {
     margin: auto;
     font-size: 15px;
     font-weight: 700;
     text-shadow: #fff 5px solid;
+}
+.title:hover {
+    background-color: #eee8aad6;
+    transition: ease-in .4s
+}
+.title >p:hover {
+    font-size: 16px;
+    transition: ease-in .3s;
 }
