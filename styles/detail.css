@@ -25,3 +25,22 @@ ul {
 ol {
     font-style: oblique;
 }
+.table-body {
+    background-color: rgb(245, 190, 180);
+    padding: 20px 25px;
+    margin-left: 50px;
+    flex-direction: column;
+}
+table, th ,td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 25px;
+    width: 60%;
+}
+tr {
+    height: 50px;
+    width: 50;
+  }
+  
